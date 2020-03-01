@@ -1,4 +1,4 @@
-# Android_Userland_Alpine_WP_SQLite
+# Android_Userland_Alpine_Wordpress_SQLite
 
 A setup script and breakdown to install Wordpress CMS with a SQLite flat file database on Android using Alpine Linux in the Userland app. Haven't tested it on Alpine for WSL or VM but probably would work. Docker definitely needs docker specific commands.
 
@@ -7,7 +7,7 @@ A setup script and breakdown to install Wordpress CMS with a SQLite flat file da
 ```
 su -
 wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh
-wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_WP_SQLite/master/setupwp.sh
+wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_Wordpress_SQLite/master/setupwp.sh
 bash fixscripts.sh && bash setupwp.sh
 ```
 
