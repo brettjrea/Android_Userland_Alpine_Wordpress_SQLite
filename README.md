@@ -18,7 +18,7 @@
 
 `mv /wp/wp-config-sample.php /wp/wp-config.php`
 
-`cd /wp/wp-content/``
+`cd /wp/wp-content/`
 
 `wget https://raw.githubusercontent.com/brettjrea/wp-sqlite-db/master/src/db.php`
 
