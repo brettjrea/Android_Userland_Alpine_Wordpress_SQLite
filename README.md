@@ -4,11 +4,12 @@ A setup script and breakdown to install Wordpress CMS with a SQLite flat file da
 
 # Installing quickly with a script.
 
-`su -`
-
-`wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_WP_SQLite/master/setupwp.sh`
-
-`bash setupwp.sh`
+```
+su -
+wget https://raw.githubusercontent.com/brettjrea/Scripts_Fix/master/fixscripts.sh
+wget https://raw.githubusercontent.com/brettjrea/Android_Userland_Alpine_WP_SQLite/master/setupwp.sh
+bash fixscripts.sh && bash setupwp.sh
+```
 
 ### Install by doing what the script does snip by snip.
 
