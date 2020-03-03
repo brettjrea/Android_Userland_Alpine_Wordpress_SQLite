@@ -22,4 +22,4 @@ wget https://raw.githubusercontent.com/brettjrea/wp-sqlite-db/master/src/db.php
 ### Change into wp directory.
 cd /wp
 ### Start PHP built-in webserver on port 3000.
-php -S localhost:3000
+wp server --allow-root
