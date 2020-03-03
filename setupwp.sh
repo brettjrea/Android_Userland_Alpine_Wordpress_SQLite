@@ -2,7 +2,7 @@
 ### Update, upgrade, and Clean.
 apk update && apk upgrade && apk autoremove 
 ### Install required php modules.
-apk add fcgi php7-cgi php7-curl php7-ctype php7-dom php7-gd php7-gettext php7-iconv php7-imap php7-json php7-ldap php7-mcrypt php7-mysqli php7-pdo php7-pdo_mysql php7-pdo_sqlite php7-phar php7-posix php7-soap php7-sqlite3 php7-xml php7-xmlrpc
+apk add fcgi php7-cgi php7-curl php7-ctype php7-dom php7-gd php7-gettext php7-iconv php7-imap php7-json php7-ldap php7-mcrypt php7-mysqli php7-pdo php7-pdo_sqlite php7-phar php7-posix php7-soap php7-sqlite3 php7-xml php7-xmlrpc
 ### Download WP-CLI.phar.
 wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 ### Make WP-CLI.phar executable.
