@@ -16,9 +16,9 @@ bash fixscripts.sh && bash setupwp.sh
 # Install by doing what the script does snip by snip.
 
 ### Switch to root.
-```
-su -
-```
+
+`su -`
+
 ### Update, upgrade, and Clean.
 
 ```
@@ -39,21 +39,15 @@ wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 
 ### Make WP-CLI.phar executable.
 
-```
-chmod +x wp-cli.phar
-```
+`chmod +x wp-cli.phar`
 
 ### Move WP-CLI.phar to usr/local/bin.
 
-```
-mv wp-cli.phar /usr/local/bin/wp
-```
+`mv wp-cli.phar /usr/local/bin/wp`
 
 ### Update WP-CLI.phar.
 
-```
-wp cli update
-```
+`wp cli update`
 
 ### Use WP-CLI to download wordpress to /wp.
 
@@ -69,9 +63,7 @@ mv /wp/wp-config-sample.php /wp/wp-config.php
 
 ### Change into wp-content directory.
 
-```
-cd /wp/wp-content/
-```
+`cd /wp/wp-content/`
 
 ### Download Sqllite one page drop in.
 
@@ -81,13 +73,8 @@ wget https://raw.githubusercontent.com/brettjrea/wp-sqlite-db/master/src/db.php
 
 ### Change into wp directory.
 
-```
-cd /wp
-```
-
+`cd /wp`
 
 ### Start PHP built-in webserver on port 3000.
 
-```
-wp server --allow-root
-```
+`wp server --allow-root`
